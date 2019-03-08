@@ -1,0 +1,19 @@
+body {
+  background-color: #005dff;
+}
+
+.box {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.box1 {
+  background: #d17a17;
+}
+
+.box2 {
+  background: #fff6bb;
+}
+/*# sourceMappingURL=main.css.map */

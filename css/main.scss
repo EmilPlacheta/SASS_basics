@@ -1,0 +1,27 @@
+
+//Variables:
+$mycolor: #005dff;
+
+body {
+  background-color: $mycolor;
+}
+.box {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  margin: 10px;
+}
+//CSS maps
+//creates css "object". with key-value pairs. Note: no curly braces, $sign only once with the map name.
+$colors: (
+  primary: #d17a17,
+  accent: #fff6bb,
+);
+
+.box1 {
+  background: map-get($colors, primary);
+}
+
+.box2 {
+  background: map-get($colors, accent);
+}
